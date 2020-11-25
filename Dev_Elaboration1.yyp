@@ -82,7 +82,6 @@
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},"order":7,},
     {"id":{"name":"sound_NPC","path":"sounds/sound_NPC/sound_NPC.yy",},"order":2,},
     {"id":{"name":"spr_player_moveUp","path":"sprites/spr_player_moveUp/spr_player_moveUp.yy",},"order":4,},
-    {"id":{"name":"Spr_ball","path":"sprites/Spr_ball/Spr_ball.yy",},"order":0,},
     {"id":{"name":"room1_manager","path":"objects/room1_manager/room1_manager.yy",},"order":1,},
     {"id":{"name":"sound_shoot","path":"sounds/sound_shoot/sound_shoot.yy",},"order":5,},
     {"id":{"name":"spr_NPC1_moveLeft","path":"sprites/spr_NPC1_moveLeft/spr_NPC1_moveLeft.yy",},"order":4,},
@@ -160,7 +159,6 @@
     {"folderPath":"folders/Sprites/NPC1.yy","order":13,"resourceVersion":"1.0","name":"NPC1","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/enemy_slime.yy","order":17,"resourceVersion":"1.0","name":"enemy_slime","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/enemy_worm.yy","order":19,"resourceVersion":"1.0","name":"enemy_worm","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/spritec.yy","order":23,"resourceVersion":"1.0","name":"spritec","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
