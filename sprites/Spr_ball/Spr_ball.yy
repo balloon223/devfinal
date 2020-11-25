@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7718eb3b-5533-47c0-a0da-62206edd3b48","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spritec",
+    "path": "folders/Sprites/spritec.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_ball",
