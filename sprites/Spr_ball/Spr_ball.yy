@@ -26,6 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"bf04456a-2439-45da-93fc-293b07b14a24","path":"sprites/Spr_ball/Spr_ball.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"bf04456a-2439-45da-93fc-293b07b14a24","path":"sprites/Spr_ball/Spr_ball.yy",},"LayerId":{"name":"7718eb3b-5533-47c0-a0da-62206edd3b48","path":"sprites/Spr_ball/Spr_ball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"bf04456a-2439-45da-93fc-293b07b14a24","path":"sprites/Spr_ball/Spr_ball.yy",},"LayerId":{"name":"7718eb3b-5533-47c0-a0da-62206edd3b48","path":"sprites/Spr_ball/Spr_ball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"Spr_ball","path":"sprites/Spr_ball/Spr_ball.yy",},"resourceVersion":"1.0","name":"bf04456a-2439-45da-93fc-293b07b14a24","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
