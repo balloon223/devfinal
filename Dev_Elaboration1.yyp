@@ -39,6 +39,7 @@
     {"id":{"name":"spr_slime_death","path":"sprites/spr_slime_death/spr_slime_death.yy",},"order":1,},
     {"id":{"name":"obj_key","path":"objects/obj_key/obj_key.yy",},"order":8,},
     {"id":{"name":"sound_bullet","path":"sounds/sound_bullet/sound_bullet.yy",},"order":4,},
+    {"id":{"name":"coffee_machine","path":"sprites/coffee_machine/coffee_machine.yy",},"order":22,},
     {"id":{"name":"spr_playerGun_moveRight","path":"sprites/spr_playerGun_moveRight/spr_playerGun_moveRight.yy",},"order":5,},
     {"id":{"name":"spr_player2_moveLeft","path":"sprites/spr_player2_moveLeft/spr_player2_moveLeft.yy",},"order":8,},
     {"id":{"name":"spr_NPC1_blush","path":"sprites/spr_NPC1_blush/spr_NPC1_blush.yy",},"order":1,},
