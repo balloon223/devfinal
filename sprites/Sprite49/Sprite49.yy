@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"62e10621-a041-4b96-a41f-524c17d96dfd","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Dev_Elaboration1",
-    "path": "Dev_Elaboration1.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite49",

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7a0f763f-ad63-4c9f-9cd2-b0e2542b947a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Dev_Elaboration1",
-    "path": "Dev_Elaboration1.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_ballon",
