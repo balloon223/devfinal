@@ -101,7 +101,6 @@
     {"id":{"name":"obj_coffee_swtich","path":"objects/obj_coffee_swtich/obj_coffee_swtich.yy",},"order":39,},
     {"id":{"name":"spr_player_moveUp","path":"sprites/spr_player_moveUp/spr_player_moveUp.yy",},"order":4,},
     {"id":{"name":"obj_ballon","path":"objects/obj_ballon/obj_ballon.yy",},"order":49,},
-    {"id":{"name":"Spr_ball","path":"sprites/Spr_ball/Spr_ball.yy",},"order":0,},
     {"id":{"name":"room1_manager","path":"objects/room1_manager/room1_manager.yy",},"order":1,},
     {"id":{"name":"sound_shoot","path":"sounds/sound_shoot/sound_shoot.yy",},"order":5,},
     {"id":{"name":"spr_NPC1_moveLeft","path":"sprites/spr_NPC1_moveLeft/spr_NPC1_moveLeft.yy",},"order":4,},
