@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "spr_barrier",
-    "path": "sprites/spr_barrier/spr_barrier.yy",
+    "name": "spr_book_self",
+    "path": "sprites/spr_book_self/spr_book_self.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_wall",
+  "name": "obj_book",
   "tags": [],
   "resourceType": "GMObject",
 }

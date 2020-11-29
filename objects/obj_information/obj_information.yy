@@ -1,13 +1,13 @@
 {
-  "spriteId": {
-    "name": "spr_barrier",
-    "path": "sprites/spr_barrier/spr_barrier.yy",
-  },
-  "solid": true,
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_walk_behind",
+    "path": "objects/obj_walk_behind/obj_walk_behind.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_information","path":"objects/obj_information/obj_information.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_wall",
+  "name": "obj_information",
   "tags": [],
   "resourceType": "GMObject",
 }
