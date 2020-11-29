@@ -3,6 +3,12 @@
 function zsort(){
 //Z-sorting of bushes and NPCs
 sortBush=instance_nearest(x,y,obj_bush);
+
+
+
+
+
+
 if(instance_exists(obj_NPC1)){
 sortNPC1=instance_nearest(x,y,obj_NPC1);
 if(sortNPC1.y>y){sortNPC1.depth=1;}

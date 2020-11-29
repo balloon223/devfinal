@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"spr_bush","path":"sprites/spr_bush/spr_bush.yy",},"order":1,},
     {"id":{"name":"spr_playerGun_moveUp","path":"sprites/spr_playerGun_moveUp/spr_playerGun_moveUp.yy",},"order":3,},
+    {"id":{"name":"zsort2","path":"scripts/zsort2/zsort2.yy",},"order":4,},
     {"id":{"name":"spr_playerGun_moveLeft","path":"sprites/spr_playerGun_moveLeft/spr_playerGun_moveLeft.yy",},"order":1,},
     {"id":{"name":"spr_slime_bubble","path":"sprites/spr_slime_bubble/spr_slime_bubble.yy",},"order":3,},
     {"id":{"name":"sound_door","path":"sounds/sound_door/sound_door.yy",},"order":1,},
@@ -69,6 +70,7 @@
     {"id":{"name":"obj_speaker","path":"objects/obj_speaker/obj_speaker.yy",},"order":2,},
     {"id":{"name":"spr_healthborder","path":"sprites/spr_healthborder/spr_healthborder.yy",},"order":15,},
     {"id":{"name":"spr_playerGun_moveLeft_attack","path":"sprites/spr_playerGun_moveLeft_attack/spr_playerGun_moveLeft_attack.yy",},"order":10,},
+    {"id":{"name":"obj_parent","path":"objects/obj_parent/obj_parent.yy",},"order":52,},
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},"order":38,},
     {"id":{"name":"obj_road_blocker","path":"objects/obj_road_blocker/obj_road_blocker.yy",},"order":45,},
     {"id":{"name":"spr_shadow","path":"sprites/spr_shadow/spr_shadow.yy",},"order":17,},

@@ -63,7 +63,7 @@ if(keyboard_check(ord("D"))){moveState=4;}
 
 
 
-
+zsort2();
 
 //Check Collision with Walls
 if (place_meeting(x+hspd,y,obj_wall)) {
@@ -79,6 +79,41 @@ if (place_meeting(x,y+vspd,obj_wall)) {
 }
 
 if (place_meeting(x,y-vspd,obj_wall)) {
+    y += vspd;
+}
+
+//Check Collision with coffee switch
+if (place_meeting(x+3,y,obj_information)) {
+    x -= 3;
+}
+
+if (place_meeting(x-3,y,obj_information)) {
+    x += 3;
+}
+
+if (place_meeting(x,y+3,obj_information)) {
+    y -= 3;
+}
+
+if (place_meeting(x,y-3,obj_information)) {
+    y += 3;
+}
+
+
+//Check Collision with objects
+if (place_meeting(x+hspd,y,obj_parent)) {
+    x -= hspd;
+}
+
+if (place_meeting(x-hspd,y,obj_parent)) {
+    x += hspd;
+}
+
+if (place_meeting(x,y+vspd,obj_parent)) {
+    y -= vspd;
+}
+
+if (place_meeting(x,y-vspd,obj_parent)) {
     y += vspd;
 }
 
