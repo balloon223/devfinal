@@ -1,15 +1,12 @@
 {
-  "spriteId": {
-    "name": "",
-    "path": "",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "",
-    "path": "",
+    "name": "obj_walk_behind",
+    "path": "objects/obj_walk_behind/obj_walk_behind.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,8 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_coffee_machine","path":"objects/obj_coffee_machine/obj_coffee_machine.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_coffee_machine","path":"objects/obj_coffee_machine/obj_coffee_machine.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_information","path":"objects/obj_information/obj_information.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_coffee_machine",
+  "name": "obj_information",
   "tags": [],
   "resourceType": "GMObject",
 }
