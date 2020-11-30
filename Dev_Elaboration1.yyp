@@ -77,6 +77,7 @@
     {"id":{"name":"obj_NPC2","path":"objects/obj_NPC2/obj_NPC2.yy",},"order":7,},
     {"id":{"name":"spr_NPC1_inLove","path":"sprites/spr_NPC1_inLove/spr_NPC1_inLove.yy",},"order":2,},
     {"id":{"name":"spr_slime_spawn","path":"sprites/spr_slime_spawn/spr_slime_spawn.yy",},"order":2,},
+    {"id":{"name":"obj_entrance_start","path":"objects/obj_entrance_start/obj_entrance_start.yy",},"order":53,},
     {"id":{"name":"obj_book","path":"objects/obj_book/obj_book.yy",},"order":44,},
     {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},"order":5,},
     {"id":{"name":"spr_playerGun_attack","path":"sprites/spr_playerGun_attack/spr_playerGun_attack.yy",},"order":8,},
@@ -137,6 +138,7 @@
     {"id":{"name":"spr_worm_spawn","path":"sprites/spr_worm_spawn/spr_worm_spawn.yy",},"order":1,},
     {"id":{"name":"obj_bulletHit","path":"objects/obj_bulletHit/obj_bulletHit.yy",},"order":15,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
+    {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},"order":0,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":34,},
     {"id":{"name":"obj_textbox_2","path":"objects/obj_textbox_2/obj_textbox_2.yy",},"order":10,},
     {"id":{"name":"obj_coffee_machine","path":"objects/obj_coffee_machine/obj_coffee_machine.yy",},"order":42,},
@@ -212,6 +214,7 @@
     {"folderPath":"folders/Objects/FC_DialogueSystem.yy","order":51,"resourceVersion":"1.0","name":"FC_DialogueSystem","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Fonts/FC_DialogueSystem.yy","order":1,"resourceVersion":"1.0","name":"FC_DialogueSystem","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sounds/FC_DialogueSystem.yy","order":11,"resourceVersion":"1.0","name":"FC_DialogueSystem","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/enemy_boss.yy","order":37,"resourceVersion":"1.0","name":"enemy_boss","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
