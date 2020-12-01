@@ -1,5 +1,11 @@
-/// @description Insert description here
-// You can write your code in this editor
+//Boss Battle
+if(hit=true)
+{
+recoverTimer--;
+if(recoverTimer<=0){hit=false; recoverTimer=50;}
+}
+
+//Generals
 upperwall=instance_place(x,y-100,obj_wall);
 lowerwall=instance_place(x,y+100,obj_wall);
 leftwall=instance_place(x-100,y,obj_wall);

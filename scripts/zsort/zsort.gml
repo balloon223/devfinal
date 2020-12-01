@@ -19,9 +19,10 @@ sortNPC1mov=instance_nearest(x,y,obj_NPC1_moving);
 if(sortNPC1mov.y>y){sortNPC1mov.depth=1;}
 if(sortNPC1mov.y<y){sortNPC1mov.depth=3;}
 }
+if(instance_exists(obj_NPC2)){
 sortNPC2=instance_nearest(x,y,obj_NPC2);
 if(sortNPC2.y>y){sortNPC2.depth=1;}
 if(sortNPC2.y<y){sortNPC2.depth=3;}
 if(sortBush.y+100>y){sortBush.depth=1;}
 if(sortBush.y+100<y){sortBush.depth=3;}
-}
+}}

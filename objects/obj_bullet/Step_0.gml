@@ -1,1 +1,9 @@
 zsort();
+if(x<0)
+{instance_destroy(self);}
+if(x>room_width)
+{instance_destroy(self);}
+if(y<0)
+{instance_destroy(self);}
+if(y>room_height)
+{instance_destroy(self);}

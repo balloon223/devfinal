@@ -23,3 +23,6 @@ healthbar_height=7;
 isHit=false;
 hasShoes=false;
 warpTimer=50;
+//boss battle
+hit=false;
+recoverTimer=50;
