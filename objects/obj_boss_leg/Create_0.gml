@@ -3,5 +3,5 @@
 direction=point_direction(x,y,obj_player.x,obj_player.y);
 speed = 10;
 depth = 2;
-alarm[0]=200;
+alarm[0]=1000;
 isHit=false;
