@@ -9,7 +9,6 @@ if(obj_playerGun.moveState=1){direction=90;}
 if(obj_playerGun.moveState=2){direction=270;}
 if(obj_playerGun.moveState=3){direction=180;}
 if(obj_playerGun.moveState=4){direction=0;}
-
 image_xscale=0.7;
 image_yscale=0.7;
 direction = direction + random_range(-10, 10);
