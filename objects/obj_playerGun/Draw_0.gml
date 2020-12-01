@@ -6,3 +6,10 @@ else{
 	draw_self();
 	gpu_set_fog(false, c_red, 0, 0);
 	}
+	
+if(!hit){draw_self();}
+else{
+	gpu_set_fog(true, c_red, 0, 0);
+	draw_self();
+	gpu_set_fog(false, c_red, 0, 0);
+	}

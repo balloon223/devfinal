@@ -2,7 +2,7 @@
 if(hit=true)
 {
 recoverTimer--;
-if(recoverTimer<=0){hit=false; recoverTimer=50;}
+if(recoverTimer<=0){hit=false; recoverTimer=5;}
 }
 
 //Generals
@@ -17,10 +17,10 @@ game_restart();
 
 
 
-if(moveState=-1){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_moveUp; image_index=0;}}
-if(moveState=-2){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_moveDown; image_index=0;}}
-if(moveState=-3){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_moveLeft; image_index=0; image_xscale=1;facing=1;}}
-if(moveState=-4){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_moveLeft; image_index=0; image_xscale=-1;facing=-1}}
+if(moveState=-1){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceUp; }}
+if(moveState=-2){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceDown; }}
+if(moveState=-3){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceLeft; image_xscale=1;facing=1;}}
+if(moveState=-4){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceLeft; image_xscale=-1;facing=-1}}
 if(moveState=1){sprite_index=spr_playerGun_moveUp;}
 if(moveState=2){sprite_index=spr_playerGun_moveDown;}
 if(moveState=3){sprite_index=spr_playerGun_moveLeft; image_xscale=1;}

@@ -25,4 +25,4 @@ hasShoes=false;
 warpTimer=50;
 //boss battle
 hit=false;
-recoverTimer=50;
+recoverTimer=5;
