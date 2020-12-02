@@ -12,4 +12,10 @@ sortballoon=instance_nearest(x,y,obj_food);
 if(sortballoon.y+30>y){sortballoon.depth=1;}
 if(sortballoon.y+30<y){sortballoon.depth=3;}
 }
+
+if(instance_exists(obj_wall)){
+sortballoon=instance_nearest(x,y,obj_wall);
+if(sortballoon.y+30>y){sortballoon.depth=1;}
+if(sortballoon.y+30<y){sortballoon.depth=3;}
+}
 }
