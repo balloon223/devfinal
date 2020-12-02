@@ -32,7 +32,9 @@ if(moveState=2){sprite_index=spr_playerGun_moveDown;}
 if(moveState=3){sprite_index=spr_playerGun_moveLeft; image_xscale=1;}
 if(moveState=4){sprite_index=spr_playerGun_moveLeft; image_xscale=-1;}
 
+if(canWarp=true){
 warpTimer--;
+}
 
 if(keyboard_check(ord("W")))
 	{

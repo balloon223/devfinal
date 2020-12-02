@@ -12,14 +12,14 @@ if(global.hasKey=true)
 
 if(dist<50){
 	if(global.hasKey=false){
-		if(keyboard_check(vk_space)){
+		if(keyboard_check(ord("E"))){
 			
 			create_textevent("The key is some way to the east of here",-1);
 			
 		}
 		}
 	if(global.hasKey=true){
-		if(keyboard_check(vk_space)){
+		if(keyboard_check(ord("E"))){
 			
 			if(obj_player.numRose<1){
 				create_textevent("You found the key. Congrats! Now if you'll excuse me for a second. I have a habit of collecting flowers. Be sure to talk to me if you find any peculiar ones.",-1);

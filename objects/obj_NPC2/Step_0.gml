@@ -3,7 +3,7 @@
 dist=point_distance(x,y,obj_player.x,obj_player.y);
 if(dist<50){
 	if(global.hasKey=false){
-		if(keyboard_check(vk_space)){
+		if(keyboard_check(ord("E"))){
 			
 			create_textevent("How the heck did you get in here?",-1);
 		
@@ -11,7 +11,7 @@ if(dist<50){
 		}
 		}
 	if(global.hasKey=true){
-		if(keyboard_check(vk_space)){
+		if(keyboard_check(ord("E"))){
 			
 			create_textevent("The exit is north of here, hidden behind a bush",-1)
 			
