@@ -1,3 +1,9 @@
+if(place_meeting(x,y+50,obj_wall))
+	{
+	depth=10;
+	}
+	else {depth=2;}
+
 //Boss Battle
 if(hit=true)
 {
