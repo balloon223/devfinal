@@ -1,5 +1,17 @@
-/// @description Insert description here
-// You can write your code in this editor
+if(place_meeting(x,y+50,obj_wall))
+	{
+	depth=10;
+	}
+	else {depth=2;}
+
+//Boss Battle
+if(hit=true)
+{
+recoverTimer--;
+if(recoverTimer<=0){hit=false; recoverTimer=5;}
+}
+
+//Generals
 upperwall=instance_place(x,y-100,obj_wall);
 lowerwall=instance_place(x,y+100,obj_wall);
 leftwall=instance_place(x-100,y,obj_wall);
@@ -11,10 +23,10 @@ game_restart();
 
 
 
-if(moveState=-1){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_moveUp; image_index=0;}}
-if(moveState=-2){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_moveDown; image_index=0;}}
-if(moveState=-3){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_moveLeft; image_index=0; image_xscale=1;facing=1;}}
-if(moveState=-4){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_moveLeft; image_index=0; image_xscale=-1;facing=-1}}
+if(moveState=-1){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceUp; }}
+if(moveState=-2){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceDown; }}
+if(moveState=-3){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceLeft; image_xscale=1;facing=1;}}
+if(moveState=-4){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceLeft; image_xscale=-1;facing=-1}}
 if(moveState=1){sprite_index=spr_playerGun_moveUp;}
 if(moveState=2){sprite_index=spr_playerGun_moveDown;}
 if(moveState=3){sprite_index=spr_playerGun_moveLeft; image_xscale=1;}

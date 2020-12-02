@@ -1,5 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(place_meeting(x,y+50,obj_wall))
+	{
+	depth=10;
+	}
+	else {depth=2;}
+	
 if(hp<=0)
 {
 game_restart();
