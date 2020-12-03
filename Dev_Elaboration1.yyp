@@ -129,6 +129,7 @@
     {"id":{"name":"obj_rose","path":"objects/obj_rose/obj_rose.yy",},"order":17,},
     {"id":{"name":"snd_voice2","path":"sounds/snd_voice2/snd_voice2.yy",},"order":0,},
     {"id":{"name":"obj_enemy_worm","path":"objects/obj_enemy_worm/obj_enemy_worm.yy",},"order":25,},
+    {"id":{"name":"spr_zombie_walk","path":"sprites/spr_zombie_walk/spr_zombie_walk.yy",},"order":0,},
     {"id":{"name":"obj_enemy_worm_death","path":"objects/obj_enemy_worm_death/obj_enemy_worm_death.yy",},"order":26,},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"order":0,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
@@ -223,6 +224,7 @@
     {"folderPath":"folders/Sounds/FC_DialogueSystem.yy","order":11,"resourceVersion":"1.0","name":"FC_DialogueSystem","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/enemy_boss.yy","order":37,"resourceVersion":"1.0","name":"enemy_boss","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/obj_boss.yy","order":54,"resourceVersion":"1.0","name":"obj_boss","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/spr_zombieA.yy","order":39,"resourceVersion":"1.0","name":"spr_zombieA","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
