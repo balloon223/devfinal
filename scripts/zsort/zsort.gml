@@ -25,4 +25,12 @@ if(sortNPC2.y>y){sortNPC2.depth=1;}
 if(sortNPC2.y<y){sortNPC2.depth=3;}
 if(sortBush.y+100>y){sortBush.depth=1;}
 if(sortBush.y+100<y){sortBush.depth=3;}
-}}
+}
+if(instance_exists(obj_enemy_parent)){
+sortNPC2=instance_nearest(x,y,obj_enemy_parent);
+if(sortNPC2.y>y){sortNPC2.depth=1;}
+if(sortNPC2.y<y){sortNPC2.depth=3;}
+if(sortBush.y+100>y){sortBush.depth=1;}
+if(sortBush.y+100<y){sortBush.depth=3;}
+}
+}
