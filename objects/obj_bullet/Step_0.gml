@@ -8,9 +8,13 @@ if(y<0)
 if(y>room_height)
 {instance_destroy(self);}
 
-wall=instance_nearest(x,y,obj_wall);
 
+
+if(instance_exists(obj_wall))
+{
+wall=instance_nearest(x,y,obj_wall);
 if(y-100<wall.y)
 	{
 	depth=100;
 	}
+}

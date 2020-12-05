@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+zsort3();
+distance=point_distance(x,y,obj_player.x,obj_player.y)
 if(place_meeting(x+hspd,y,obj_wall)){hspd=-hspd;}
 if(foundPlayer=false)
 	{
@@ -9,12 +11,32 @@ if(foundPlayer=false)
 
 	}
 
-if(point_distance(x,y,obj_player.x,obj_player.y)<200){foundPlayer=true;}
+if(distance<200){foundPlayer=true;}
 if(foundPlayer=true){
+	if(distance>50){
+	move_towards_point(obj_player.x,obj_player.y,spd);
 	if(obj_player.x>x)
 	{image_xscale=1;}
 	else{image_xscale=-1;}
-	move_towards_point(obj_player.x,obj_player.y,spd);}
+	
+}
+else
+	{
+	cdown--;
+	}
+	}
+	
+if(cdown<=0)
+	{
+	if(obj_player.x>x)
+	{image_xscale=1;attack=instance_create_layer(x,y,"Instances",obj_zombieAttack);attack.image_xscale=1; attack.x+=10;}
+	else
+	{image_xscale=-1; attack=instance_create_layer(x,y,"Instances",obj_zombieAttack);attack.image_xscale=-1; attack.x-=10;}
+
+
+	cdown=100;
+	}
+
 
 if(hp<=0){
 	if(instance_exists(obj_NPC1_moving)){

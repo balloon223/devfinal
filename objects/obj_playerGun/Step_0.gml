@@ -5,10 +5,10 @@ if(place_meeting(x,y+50,obj_wall))
 	else {depth=2;}
 
 //Boss Battle
-if(hit=true)
+if(isHit=true)
 {
 recoverTimer--;
-if(recoverTimer<=0){hit=false; recoverTimer=5;}
+if(recoverTimer<=0){isHit=false; recoverTimer=5;}
 }
 
 //Generals
