@@ -44,6 +44,9 @@ if(cdown<=0 && distance<=50)
 
 
 if(hp<=0){
+	if(owner!=noone){
+	owner.numSummed--;
+	}
 	if(instance_exists(obj_NPC1_moving)){
 	if(obj_NPC1_moving.target=self){obj_NPC1_moving.target=noone;}}
 	global.numworm--;
