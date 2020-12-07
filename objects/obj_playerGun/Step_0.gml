@@ -1,4 +1,4 @@
-if(place_meeting(x,y+50,obj_wall))
+if(place_meeting(x,y+30,obj_wall))
 	{
 	depth=10;
 	}

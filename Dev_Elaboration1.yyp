@@ -93,6 +93,7 @@
     {"id":{"name":"spr_shadow","path":"sprites/spr_shadow/spr_shadow.yy",},"order":17,},
     {"id":{"name":"obj_NPC2","path":"objects/obj_NPC2/obj_NPC2.yy",},"order":7,},
     {"id":{"name":"spr_NPC1_inLove","path":"sprites/spr_NPC1_inLove/spr_NPC1_inLove.yy",},"order":2,},
+    {"id":{"name":"obj_wallside","path":"objects/obj_wallside/obj_wallside.yy",},"order":61,},
     {"id":{"name":"spr_slime_spawn","path":"sprites/spr_slime_spawn/spr_slime_spawn.yy",},"order":2,},
     {"id":{"name":"obj_entrance_start","path":"objects/obj_entrance_start/obj_entrance_start.yy",},"order":53,},
     {"id":{"name":"obj_book","path":"objects/obj_book/obj_book.yy",},"order":44,},
@@ -148,6 +149,7 @@
     {"id":{"name":"obj_rose","path":"objects/obj_rose/obj_rose.yy",},"order":17,},
     {"id":{"name":"snd_voice2","path":"sounds/snd_voice2/snd_voice2.yy",},"order":0,},
     {"id":{"name":"obj_enemy_worm","path":"objects/obj_enemy_worm/obj_enemy_worm.yy",},"order":25,},
+    {"id":{"name":"obj_wallfront","path":"objects/obj_wallfront/obj_wallfront.yy",},"order":60,},
     {"id":{"name":"spr_zombieA_walk","path":"sprites/spr_zombieA_walk/spr_zombieA_walk.yy",},"order":0,},
     {"id":{"name":"obj_enemy_worm_death","path":"objects/obj_enemy_worm_death/obj_enemy_worm_death.yy",},"order":26,},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"order":0,},
@@ -217,10 +219,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room_boss","path":"rooms/Room_boss/Room_boss.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
