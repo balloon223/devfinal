@@ -173,6 +173,7 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":34,},
     {"id":{"name":"obj_textbox_2","path":"objects/obj_textbox_2/obj_textbox_2.yy",},"order":10,},
     {"id":{"name":"obj_coffee_machine","path":"objects/obj_coffee_machine/obj_coffee_machine.yy",},"order":42,},
+    {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},"order":1,},
     {"id":{"name":"spr_wallfront","path":"sprites/spr_wallfront/spr_wallfront.yy",},"order":2,},
     {"id":{"name":"spr_playerGun_moveDown","path":"sprites/spr_playerGun_moveDown/spr_playerGun_moveDown.yy",},"order":0,},
     {"id":{"name":"obj_bush","path":"objects/obj_bush/obj_bush.yy",},"order":3,},
