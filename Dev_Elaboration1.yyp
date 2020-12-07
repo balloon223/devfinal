@@ -56,6 +56,7 @@
     {"id":{"name":"spr_healthbar","path":"sprites/spr_healthbar/spr_healthbar.yy",},"order":14,},
     {"id":{"name":"obj_fireball","path":"objects/obj_fireball/obj_fireball.yy",},"order":20,},
     {"id":{"name":"spr_wallside","path":"sprites/spr_wallside/spr_wallside.yy",},"order":3,},
+    {"id":{"name":"tile_dirtA","path":"tilesets/tile_dirtA/tile_dirtA.yy",},"order":2,},
     {"id":{"name":"force_directional","path":"objects/force_directional/force_directional.yy",},"order":16,},
     {"id":{"name":"spr_NPC1_moveRight","path":"sprites/spr_NPC1_moveRight/spr_NPC1_moveRight.yy",},"order":7,},
     {"id":{"name":"obj_enemy_nest","path":"objects/obj_enemy_nest/obj_enemy_nest.yy",},"order":27,},
