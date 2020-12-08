@@ -146,8 +146,10 @@ if (place_meeting(x,y-vspd,obj_wall)) {
     y += vspd;
 }
 
-if(hasShoes=true){
+if(global.hasShoes=true){
 	image_speed=1.2;
+	hspd=5;
+	vspd=5;
 if(instance_exists(obj_NPC1_moving))
 	{
 	obj_NPC1_moving.spd=5;

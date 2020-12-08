@@ -1,5 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(global.hasShoes=true){
+	image_speed=1.2;
+	obj_playerGun.hspd=5;
+	obj_playerGun.vspd=5;
+
+}
+
 if(leghp>40){
 timer--;
 actionNum=irandom(3);

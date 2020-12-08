@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-hp=300;
+hp=20;
 spd=1;
 depth=-1;
 foundPlayer=false;

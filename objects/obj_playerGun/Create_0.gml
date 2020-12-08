@@ -21,7 +21,7 @@ flash=0;
 healthbar_width=60;
 healthbar_height=7;
 isHit=false;
-hasShoes=false;
+global.hasShoes=false;
 warpTimer=50;
 //boss battle
 hit=false;
