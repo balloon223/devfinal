@@ -92,20 +92,20 @@ if(keyboard_check(ord("D")))
 	}
 	else{moving=false;}
 	
-if(keyboard_check(ord("J")))
+if(mouse_check_button(mb_left))
 	{
 	if(delay<=0){
 	instance_create_layer(x,y+10,"Instances",obj_bullet);
 	delay=5;
 	}
 	delay--;
-	if(moveState=1){sprite_index=spr_playerGun_moveUp_attack;} if(moveState=-1){sprite_index=spr_playerGun_moveUp_attack;}
-	if(moveState=2){sprite_index=spr_playerGun_attack;}	if(moveState=-2){sprite_index=spr_playerGun_attack;}
-	if(moveState=3){sprite_index=spr_playerGun_moveLeft_attack;} if(moveState=-3){sprite_index=spr_playerGun_moveLeft_attack;}
-	if(moveState=4){sprite_index=spr_playerGun_moveLeft_attack;image_xscale=-1;} if(moveState=-4){sprite_index=spr_playerGun_moveLeft_attack;image_xscale=-1;}
+	if(mouse_y-50<y){sprite_index=spr_playerGun_moveUp_attack;}
+	if(mouse_y+50>y){sprite_index=spr_playerGun_attack;}
+	if(mouse_x<x-100){sprite_index=spr_playerGun_moveRight_attack;}
+	if(mouse_x>x+100){sprite_index=spr_playerGun_moveLeft_attack;}
 
 		}
-if(keyboard_check_released(ord("J")))
+if(mouse_check_button_released(mb_left))
 	{delay=0;}
 
 
