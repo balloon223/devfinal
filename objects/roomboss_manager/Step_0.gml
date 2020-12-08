@@ -6,6 +6,14 @@ if(global.hasShoes=true){
 	obj_playerGun.vspd=5;
 
 }
+if(leghp<=0 && spawn=false)
+	{
+	spawntimer--;
+	if(spawntimer<=0){
+		instance_create_layer(200,obj_playerGun.y,"Instances",obj_boss);
+		spawn=true;
+		}
+	}
 
 if(leghp>40){
 timer--;

@@ -44,7 +44,6 @@
     {"id":{"name":"spr_healthborder_bg","path":"sprites/spr_healthborder_bg/spr_healthborder_bg.yy",},"order":16,},
     {"id":{"name":"spr_stain","path":"sprites/spr_stain/spr_stain.yy",},"order":2,},
     {"id":{"name":"spr_book_self","path":"sprites/spr_book_self/spr_book_self.yy",},"order":26,},
-    {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":1,},
     {"id":{"name":"obj_NPC1","path":"objects/obj_NPC1/obj_NPC1.yy",},"order":6,},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":2,},
     {"id":{"name":"coffee_machine_1","path":"sprites/coffee_machine_1/coffee_machine_1.yy",},"order":24,},
@@ -182,6 +181,7 @@
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"spr_bricksA","path":"sprites/spr_bricksA/spr_bricksA.yy",},"order":0,},
     {"id":{"name":"spr_boss_leg","path":"sprites/spr_boss_leg/spr_boss_leg.yy",},"order":0,},
+    {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":1,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":34,},
     {"id":{"name":"obj_textbox_2","path":"objects/obj_textbox_2/obj_textbox_2.yy",},"order":10,},
     {"id":{"name":"obj_coffee_machine","path":"objects/obj_coffee_machine/obj_coffee_machine.yy",},"order":42,},
@@ -237,9 +237,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room_boss","path":"rooms/Room_boss/Room_boss.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-    {"roomId":{"name":"Room_boss","path":"rooms/Room_boss/Room_boss.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
   ],
   "Folders": [

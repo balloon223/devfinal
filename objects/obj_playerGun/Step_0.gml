@@ -21,12 +21,12 @@ if(hp<=0)
 game_restart();
 }
 
-
-
+if(!mouse_check_button(mb_left))
+{
 if(moveState=-1){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceUp; }}
 if(moveState=-2){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceDown; }}
-if(moveState=-3){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceLeft; image_xscale=1;facing=1;}}
-if(moveState=-4){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceLeft; image_xscale=-1;facing=-1}}
+if(moveState=-3){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceLeft; image_xscale=-1;facing=1;}}
+if(moveState=-4){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceLeft; image_xscale=1;facing=-1}}
 if(moveState=1){sprite_index=spr_playerGun_moveUp;}
 if(moveState=2){sprite_index=spr_playerGun_moveDown;}
 if(moveState=3){sprite_index=spr_playerGun_moveLeft; image_xscale=1;}
@@ -92,21 +92,29 @@ if(keyboard_check(ord("D")))
 	}
 	else{moving=false;}
 	
-if(mouse_check_button(mb_left))
+		delay=0;
+} //
+
+else if(mouse_check_button(mb_left))
 	{
+	if(mouse_y-20<y){sprite_index=spr_playerGun_moveUp_attack;}
+	if(mouse_y+20>y){sprite_index=spr_playerGun_attack;}
+	if(mouse_x<x-200){sprite_index=spr_playerGun_moveRight_attack;}
+	if(mouse_x>x+200){sprite_index=spr_playerGun_moveLeft_attack;}
 	if(delay<=0){
 	instance_create_layer(x,y+10,"Instances",obj_bullet);
 	delay=5;
 	}
 	delay--;
-	if(mouse_y-50<y){sprite_index=spr_playerGun_moveUp_attack;}
-	if(mouse_y+50>y){sprite_index=spr_playerGun_attack;}
-	if(mouse_x<x-100){sprite_index=spr_playerGun_moveRight_attack;}
-	if(mouse_x>x+100){sprite_index=spr_playerGun_moveLeft_attack;}
+if(keyboard_check(ord("W"))){y-=vspd;}
+if(keyboard_check(ord("S"))){y+=vspd;}
+if(keyboard_check(ord("A"))){x-=hspd;}
+if(keyboard_check(ord("D"))){x+=hspd;}
 
 		}
-if(mouse_check_button_released(mb_left))
-	{delay=0;}
+
+
+
 
 
 if(keyboard_check(vk_nokey))
