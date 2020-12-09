@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(distance_to_object(obj_player2)<=80&&keyboard_check_pressed(ord("J")))
+if(distance_to_object(obj_player2)<=80&&keyboard_check_pressed(ord("E")))
 {
 	if invest_num<=3
 	{
