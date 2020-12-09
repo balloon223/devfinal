@@ -5,7 +5,7 @@ if(dist<50){
 	if(global.hasKey=false){
 		if(keyboard_check(ord("E"))){
 			
-			create_textevent("How the heck did you get in here?",-1);
+			create_textevent("Hmmm",-1);
 		
 			
 		}
@@ -13,7 +13,7 @@ if(dist<50){
 	if(global.hasKey=true){
 		if(keyboard_check(ord("E"))){
 			
-			create_textevent("The exit is north of here, hidden behind a bush",-1)
+			create_textevent("If you see an old fashioned CD, bring it to me. I'll give you anything.",-1)
 			
 		}
 		}

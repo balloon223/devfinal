@@ -1,5 +1,20 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(global.hasShoes=true){
+	image_speed=1.2;
+	obj_playerGun.hspd=5;
+	obj_playerGun.vspd=5;
+
+}
+if(leghp<=0 && spawn=false)
+	{
+	spawntimer--;
+	if(spawntimer<=0){
+		instance_create_layer(200,obj_playerGun.y,"Instances",obj_boss);
+		spawn=true;
+		}
+	}
+
 if(leghp>40){
 timer--;
 actionNum=irandom(3);

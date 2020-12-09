@@ -5,7 +5,7 @@ dist=point_distance(x,y,obj_player.x,obj_player.y);
 if(global.hasKey=true)
 	{
 	if(obj_player.y>560){
-		x=3050;
+		x=2250;
 		y=1260;}
 	else{x=1880; y=130;}
 	}
@@ -14,7 +14,7 @@ if(dist<50){
 	if(global.hasKey=false){
 		if(keyboard_check(ord("E"))){
 			
-			create_textevent("The key is some way to the east of here",-1);
+			create_textevent("......",-1);
 			
 		}
 		}
@@ -22,7 +22,7 @@ if(dist<50){
 		if(keyboard_check(ord("E"))){
 			
 			if(obj_player.numRose<1){
-				create_textevent("You found the key. Congrats! Now if you'll excuse me for a second. I have a habit of collecting flowers. Be sure to talk to me if you find any peculiar ones.",-1);
+				create_textevent(["You found the key. Congrats! Now if you'll excuse me for a second.", "I have a habit of collecting flowers.", "Be sure to talk to me if you find any peculiar ones."],-1);
 			
 			}
 			else if(obj_player.numRose<2){
@@ -35,7 +35,7 @@ if(dist<50){
 			sprite_index=spr_NPC1_inLove;
 			}
 			else if(obj_player.numRose>=7){
-			create_textevent("I have decided to follow you to the end of the world. Will you accept?(Press Y to accept)",-1);
+			create_textevent(["Have you heard? There is a CD that everyone is looking for...","I heard it's somehow connected to the old world", "You know, a long time ago, before our world became like this."],-1);
 			
 			sprite_index=spr_NPC1;
 			canFollow=true;

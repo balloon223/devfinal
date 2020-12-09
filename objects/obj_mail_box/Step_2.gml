@@ -6,5 +6,10 @@ if(distance_to_object(obj_player)<=25 &&keyboard_check_pressed(ord("J")))
 	
 	
 	create_textevent("Did I forget to take out the trash?", -1);
+	if !check
+	{
+		check=true;
+		invest_num=invest_num+1;
+	}
 	
 }
