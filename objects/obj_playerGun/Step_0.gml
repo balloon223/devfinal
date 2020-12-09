@@ -1,3 +1,5 @@
+moving=false;
+
 if(place_meeting(x,y+30,obj_wall))
 	{
 	depth=10;
@@ -23,14 +25,16 @@ game_restart();
 
 if(!mouse_check_button(mb_left))
 {
-if(moveState=-1){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceUp; }}
+	attacking=false;
+	//show_debug_message("not shooting");
+/*if(moveState=-1){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceUp; }}
 if(moveState=-2){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceDown; }}
 if(moveState=-3){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceLeft; image_xscale=-1;facing=1;}}
 if(moveState=-4){if(!keyboard_check(ord("J"))){sprite_index=spr_playerGun_faceLeft; image_xscale=1;facing=-1}}
 if(moveState=1){sprite_index=spr_playerGun_moveUp;}
 if(moveState=2){sprite_index=spr_playerGun_moveDown;}
 if(moveState=3){sprite_index=spr_playerGun_moveLeft; image_xscale=1;}
-if(moveState=4){sprite_index=spr_playerGun_moveLeft; image_xscale=-1;}
+if(moveState=4){sprite_index=spr_playerGun_moveLeft; image_xscale=-1;}*/
 
 if(canWarp=true){
 warpTimer--;
@@ -38,6 +42,7 @@ warpTimer--;
 
 if(keyboard_check(ord("W")))
 	{
+	aniFace=0;
 	if(warpTimer<=0){
 	if(keyboard_check(vk_shift))
 	{instance_create_layer(x,y,"Instances",particle);if(place_meeting(x,y-100,upperwall)){y=upperwall.y-10; teleport=true; warpTimer=50;}
@@ -48,10 +53,10 @@ if(keyboard_check(ord("W")))
 	moving=true;
 	moveState=1;
 	}
-	else{moving=false;}
 
 if(keyboard_check(ord("S")))
 	{
+		aniFace=2;
 	if(warpTimer<=0){
 	if(keyboard_check(vk_shift))
 	{instance_create_layer(x,y,"Instances",particle);if(place_meeting(x,y+100,lowerwall)){y=y+10; teleport=true; warpTimer=50;}
@@ -62,10 +67,11 @@ if(keyboard_check(ord("S")))
 	moving=true;
 	moveState=2;
 	}
-	else{moving=false;}
+
 
 if(keyboard_check(ord("A")))
 	{
+		aniFace=1;
 	if(warpTimer<=0){
 	if(keyboard_check(vk_shift))
 	{instance_create_layer(x,y,"Instances",particle);if(place_meeting(x-100,y,leftwall)){x=x-10; teleport=true; warpTimer=50;}
@@ -76,10 +82,11 @@ if(keyboard_check(ord("A")))
 	moving=true;
 	moveState=3;
 	}
-	else{moving=false;}
+
 
 if(keyboard_check(ord("D")))
 	{
+		aniFace=3;
 	if(warpTimer<=0){
 	if(keyboard_check(vk_shift))
 	{instance_create_layer(x,y,"Instances",particle);if(place_meeting(x,x+100,rightwall)){x=x+10; teleport=true; warpTimer=50;}
@@ -90,17 +97,19 @@ if(keyboard_check(ord("D")))
 	moving=true;
 	moveState=4;
 	}
-	else{moving=false;}
+
 	
 		delay=0;
 } //
 
 else if(mouse_check_button(mb_left))
 	{
-	if(mouse_y-20<y){sprite_index=spr_playerGun_moveUp_attack;}
-	if(mouse_y+20>y){sprite_index=spr_playerGun_attack;}
-	if(mouse_x<x-200){sprite_index=spr_playerGun_moveRight_attack;}
-	if(mouse_x>x+200){sprite_index=spr_playerGun_moveLeft_attack;}
+		attacking=true;
+		//show_debug_message(sprite_index);
+	if(mouse_y-20<y){aniFace=0;}
+	if(mouse_y+20>y){aniFace=2;}
+	if(mouse_x<x-200){aniFace=1;}
+	if(mouse_x>x+200){aniFace=3;}
 	if(delay<=0){
 	instance_create_layer(x,y+10,"Instances",obj_bullet);
 	delay=5;

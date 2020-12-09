@@ -27,3 +27,5 @@ warpTimer=50;
 hit=false;
 recoverTimer=5;
 canWarp=false;
+aniFace=0;
+attacking=false;
