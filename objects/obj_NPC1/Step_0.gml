@@ -1,7 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 dist=point_distance(x,y,obj_player.x,obj_player.y);
-
+if distance_to_object(obj_player)>=150 
+{
+	talk_now=true;
+}
 if(global.hasKey=true)
 	{
 	if(obj_player.y>560){
@@ -19,7 +22,7 @@ if(dist<50){
 		}
 		}
 	if(global.hasKey=true){
-		if(keyboard_check(ord("E"))){
+		if(keyboard_check(ord("E"))&&talk_now){
 			
 			if(obj_player.numRose<1){
 				create_textevent(["You found the key. Congrats! Now if you'll excuse me for a second.", "I have a habit of collecting flowers.", "Be sure to talk to me if you find any peculiar ones."],-1);
@@ -40,6 +43,7 @@ if(dist<50){
 			sprite_index=spr_NPC1;
 			canFollow=true;
 			}
+			talk_now=false;
 				
 		}
 		}

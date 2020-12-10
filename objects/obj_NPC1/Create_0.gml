@@ -4,3 +4,4 @@ myText=noone;
 follow=false;
 canFollow=false;
 spd=1;
+talk_now=false;
