@@ -15,10 +15,10 @@ if(dist<50){
 		}
 		}
 	if(global.hasKey=true){
-		if(keyboard_check(ord("E"))){
+		if(keyboard_check(ord("E"))&&talk_now){
 			
 			create_textevent("If you see an old fashioned CD, bring it to me. I'll give you anything.",-1)
-			
+				talk_now=false;
 		}
 		}
 }else if(myText!=noone){
