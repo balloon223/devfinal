@@ -22,7 +22,7 @@ if(moveState=1){sprite_index=spr_player_moveUp;}
 if(moveState=2){sprite_index=spr_player_moveDown;}
 if(moveState=3){sprite_index=spr_player_moveLeft; image_xscale=1;facing=1;}
 if(moveState=4){sprite_index=spr_player_moveLeft; image_xscale=-1;facing=-1;}
-
+if !instance_exists(obj_textbox){
 if(keyboard_check(ord("W")))
 	{
 	y=y-vspd;
@@ -51,15 +51,8 @@ if(keyboard_check(ord("D")))
 	moveState=4;
 	}
 	
-	
 
-if(keyboard_check(vk_nokey))
-	{
-	if(moveState=1){moveState=-1;}
-	if(moveState=2){moveState=-2;}
-	if(moveState=3){moveState=-3;}
-	if(moveState=4){moveState=-4;}
-	}
+
 
 
 if(keyboard_check(ord("W"))){moveState=1;}
@@ -68,6 +61,14 @@ if(keyboard_check(ord("A"))){moveState=3;}
 if(keyboard_check(ord("D"))){moveState=4;}
 
 
+}
+if(keyboard_check(vk_nokey))
+	{
+	if(moveState=1){moveState=-1;}
+	if(moveState=2){moveState=-2;}
+	if(moveState=3){moveState=-3;}
+	if(moveState=4){moveState=-4;}
+	}
 
 
 //Z-sorting of bushes and NPCs
