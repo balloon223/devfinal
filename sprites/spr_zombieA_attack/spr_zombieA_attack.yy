@@ -44,7 +44,7 @@
     "spriteId": {"name":"spr_zombieA_attack","path":"sprites/spr_zombieA_attack/spr_zombieA_attack.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 21.0,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
