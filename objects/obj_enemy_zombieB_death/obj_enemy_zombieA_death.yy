@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_zombieA_death",
-    "path": "sprites/spr_zombieA_death/spr_zombieA_death.yy",
+    "name": "spr_worm_death",
+    "path": "sprites/spr_worm_death/spr_worm_death.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "obj_zombieA",
-    "path": "folders/Objects/obj_zombieA.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_enemy_zombieA_death",
