@@ -12,7 +12,7 @@ if (keyboard_check_pressed(ord("E")))
 	
 	
     
-    alarm[0] = room_speed * 5;
+    alarm[0] = room_speed * 3;
 
     
    
