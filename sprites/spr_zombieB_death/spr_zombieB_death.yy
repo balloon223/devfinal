@@ -56,7 +56,7 @@
     "spriteId": {"name":"spr_zombieB_death","path":"sprites/spr_zombieB_death/spr_zombieB_death.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 21.0,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

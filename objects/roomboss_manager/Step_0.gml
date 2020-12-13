@@ -75,3 +75,9 @@ if(timer<=0)
 	obj_boss_leg.image_xscale=1;
 	}
 }}
+
+
+if(global.bosshp<=0)
+{
+room_goto(Room3);
+}

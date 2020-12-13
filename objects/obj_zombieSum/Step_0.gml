@@ -50,7 +50,7 @@ if(hp<=0){
 	if(instance_exists(obj_NPC1_moving)){
 	if(obj_NPC1_moving.target=self){obj_NPC1_moving.target=noone;}}
 	global.numworm--;
-	deathAni=instance_create_layer(x,y,"Instances",obj_enemy_worm_death);
+	deathAni=instance_create_layer(x,y,"Instances",obj_enemy_zombieA_death);
 	deathAni.image_angle=image_angle;
 	if(hasRose=0){instance_create_layer(x,y,"Instances",obj_rose);}
 	instance_destroy();

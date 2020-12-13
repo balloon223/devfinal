@@ -6,7 +6,6 @@ vspd=2;
 spd=2.5;
 depth=-1;
 foundPlayer=false;
-global.numslime++;
 isHit=false;
 hasRose=irandom_range(0,1);
 hitSpeed=5;

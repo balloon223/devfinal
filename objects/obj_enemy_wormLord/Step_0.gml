@@ -17,7 +17,6 @@ if(foundPlayer=true){
 if(hp<=0){
 	if(instance_exists(obj_NPC1_moving)){
 	if(obj_NPC1_moving.target=self){obj_NPC1_moving.target=noone;}}
-	global.numworm--;
 	deathAni=instance_create_layer(x,y,"Instances",obj_enemy_worm_death);
 	deathAni.image_angle=image_angle;
 	deathAni.image_xscale=3;

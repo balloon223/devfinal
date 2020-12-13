@@ -4,6 +4,7 @@ timer=230;
 leghp=60;
 spawn=false;
 spawntimer=400;
+global.bosshp=300;
 if(instance_exists(obj_playerGun))
 {
 obj_playerGun.x=2000;
