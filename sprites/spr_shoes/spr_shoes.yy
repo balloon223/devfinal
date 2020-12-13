@@ -25,9 +25,9 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"0fba4cab-b91c-4a2b-aed1-16da1de85feb","path":"sprites/spr_shoes/spr_shoes.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0fba4cab-b91c-4a2b-aed1-16da1de85feb","path":"sprites/spr_shoes/spr_shoes.yy",},"LayerId":{"name":"f293b572-ce92-4c9c-b4e6-1539af369390","path":"sprites/spr_shoes/spr_shoes.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"0fba4cab-b91c-4a2b-aed1-16da1de85feb","path":"sprites/spr_shoes/spr_shoes.yy",},"LayerId":{"name":"f15efc78-655d-4b18-b7e4-0323633fb8e0","path":"sprites/spr_shoes/spr_shoes.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"0fba4cab-b91c-4a2b-aed1-16da1de85feb","path":"sprites/spr_shoes/spr_shoes.yy",},"LayerId":{"name":"644f9216-fb54-482c-83e4-ba432ad5765b","path":"sprites/spr_shoes/spr_shoes.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"0fba4cab-b91c-4a2b-aed1-16da1de85feb","path":"sprites/spr_shoes/spr_shoes.yy",},"LayerId":{"name":"f293b572-ce92-4c9c-b4e6-1539af369390","path":"sprites/spr_shoes/spr_shoes.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_shoes","path":"sprites/spr_shoes/spr_shoes.yy",},"resourceVersion":"1.0","name":"0fba4cab-b91c-4a2b-aed1-16da1de85feb","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"858ae467-e614-496a-b508-3ae26fc9fd0f","path":"sprites/spr_shoes/spr_shoes.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"858ae467-e614-496a-b508-3ae26fc9fd0f","path":"sprites/spr_shoes/spr_shoes.yy",},"LayerId":{"name":"f15efc78-655d-4b18-b7e4-0323633fb8e0","path":"sprites/spr_shoes/spr_shoes.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},

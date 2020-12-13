@@ -8,7 +8,7 @@ if distance_to_object(obj_player)>=150
 if(dist<50){
 	if(global.hasKey=false){
 		if(keyboard_check(ord("E"))&&talk_now){
-			
+			audio_play_sound(sound_NPC2,1,0);
 			create_textevent("Hmmm",-1);
 		talk_now=false;
 			
@@ -16,7 +16,7 @@ if(dist<50){
 		}
 	if(global.hasKey=true){
 		if(keyboard_check(ord("E"))&&talk_now){
-			
+			audio_play_sound(sound_NPC2,1,0);
 			create_textevent("If you see an old fashioned CD, bring it to me. I'll give you anything.",-1)
 				talk_now=false;
 		}

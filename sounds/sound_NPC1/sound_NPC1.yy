@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sound_NPC.mp3",
-  "duration": 0.867042,
+  "soundFile": "sound_NPC1.mp3",
+  "duration": 0.413,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sound_NPC",
+  "name": "sound_NPC1",
   "tags": [],
   "resourceType": "GMSound",
 }

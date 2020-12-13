@@ -16,14 +16,14 @@ if(global.hasKey=true)
 if(dist<50){
 	if(global.hasKey=false){
 		if(keyboard_check(ord("E"))){
-			
+			audio_play_sound(sound_NPC1,1,0);
 			create_textevent("......",-1);
 			
 		}
 		}
 	if(global.hasKey=true){
 		if(keyboard_check(ord("E"))&&talk_now){
-			
+			audio_play_sound(sound_NPC1,1,0);
 			if(obj_player.numRose<1){
 				create_textevent(["You found the key. Congrats! Now if you'll excuse me for a second.", "I have a habit of collecting flowers.", "Be sure to talk to me if you find any peculiar ones."],-1);
 			

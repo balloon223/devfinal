@@ -26,7 +26,6 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"abcf4870-8e8f-4cf0-92ce-c651fbf9acb0","path":"sprites/spr_NPC1_inLove/spr_NPC1_inLove.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"abcf4870-8e8f-4cf0-92ce-c651fbf9acb0","path":"sprites/spr_NPC1_inLove/spr_NPC1_inLove.yy",},"LayerId":{"name":"dd745594-a5ef-4cae-822d-376c494aa641","path":"sprites/spr_NPC1_inLove/spr_NPC1_inLove.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"abcf4870-8e8f-4cf0-92ce-c651fbf9acb0","path":"sprites/spr_NPC1_inLove/spr_NPC1_inLove.yy",},"LayerId":{"name":"spr_NPC1_inLove","path":"sprites/spr_NPC1_inLove/spr_NPC1_inLove.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_NPC1_inLove","path":"sprites/spr_NPC1_inLove/spr_NPC1_inLove.yy",},"resourceVersion":"1.0","name":"abcf4870-8e8f-4cf0-92ce-c651fbf9acb0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

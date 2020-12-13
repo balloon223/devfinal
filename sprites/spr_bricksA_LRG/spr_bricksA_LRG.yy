@@ -25,10 +25,9 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"69dbdbd3-16fb-4c98-8ae7-0129059ddb97","path":"sprites/spr_bricksA_LRG/spr_bricksA_LRG.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"69dbdbd3-16fb-4c98-8ae7-0129059ddb97","path":"sprites/spr_bricksA_LRG/spr_bricksA_LRG.yy",},"LayerId":{"name":"aca805b6-fb0b-4b77-9903-049c431910fc","path":"sprites/spr_bricksA_LRG/spr_bricksA_LRG.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"69dbdbd3-16fb-4c98-8ae7-0129059ddb97","path":"sprites/spr_bricksA_LRG/spr_bricksA_LRG.yy",},"LayerId":{"name":"2e54ce4f-a445-4f0f-9652-d9e32ea8743a","path":"sprites/spr_bricksA_LRG/spr_bricksA_LRG.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"69dbdbd3-16fb-4c98-8ae7-0129059ddb97","path":"sprites/spr_bricksA_LRG/spr_bricksA_LRG.yy",},"LayerId":{"name":"2a651b99-8d55-4b1a-92a5-60fc51429596","path":"sprites/spr_bricksA_LRG/spr_bricksA_LRG.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"69dbdbd3-16fb-4c98-8ae7-0129059ddb97","path":"sprites/spr_bricksA_LRG/spr_bricksA_LRG.yy",},"LayerId":{"name":"f551c913-fda0-4563-94f2-2b00d05dc397","path":"sprites/spr_bricksA_LRG/spr_bricksA_LRG.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"69dbdbd3-16fb-4c98-8ae7-0129059ddb97","path":"sprites/spr_bricksA_LRG/spr_bricksA_LRG.yy",},"LayerId":{"name":"2e54ce4f-a445-4f0f-9652-d9e32ea8743a","path":"sprites/spr_bricksA_LRG/spr_bricksA_LRG.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"69dbdbd3-16fb-4c98-8ae7-0129059ddb97","path":"sprites/spr_bricksA_LRG/spr_bricksA_LRG.yy",},"LayerId":{"name":"aca805b6-fb0b-4b77-9903-049c431910fc","path":"sprites/spr_bricksA_LRG/spr_bricksA_LRG.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_bricksA_LRG","path":"sprites/spr_bricksA_LRG/spr_bricksA_LRG.yy",},"resourceVersion":"1.0","name":"69dbdbd3-16fb-4c98-8ae7-0129059ddb97","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
