@@ -88,8 +88,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d6588cf5-c396-48f9-9de4-6d12c35554a3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "enemy_mushroom",
-    "path": "folders/Sprites/enemy_mushroom.yy",
+    "name": "enemy_mushroomA",
+    "path": "folders/Sprites/enemy_mushroomA.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_mushroomA_attack",
