@@ -5,6 +5,7 @@ zsort();
 //summon zombies
 if(sumtimer<=0 && numSummed<=0)
 {
+audio_play_sound(sound_zombiesum,1,0);
 zombie1=instance_create_layer(x+20,y,"Instances",obj_zombieSum);
 zombie2=instance_create_layer(x-20,y,"Instances",obj_zombieSum);
 zombie1.owner=id;

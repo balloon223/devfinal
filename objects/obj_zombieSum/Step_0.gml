@@ -33,9 +33,9 @@ else{sprite_index=spr_zombieA_walk;}
 if(cdown<=0 && distance<=50)
 	{
 	if(obj_player.x>x)
-	{image_xscale=1;attack=instance_create_layer(x,y,"Instances",obj_zombieAttack);attack.image_xscale=1; attack.x+=10;}
+	{audio_play_sound(sound_zombieslash,1,0);image_xscale=1;attack=instance_create_layer(x,y,"Instances",obj_zombieAttack);attack.image_xscale=1; attack.x+=10;}
 	else
-	{image_xscale=-1; attack=instance_create_layer(x,y,"Instances",obj_zombieAttack);attack.image_xscale=-1; attack.x-=10;}
+	{audio_play_sound(sound_zombieslash,1,0);image_xscale=-1; attack=instance_create_layer(x,y,"Instances",obj_zombieAttack);attack.image_xscale=-1; attack.x-=10;}
 
 
 	cdown=100;

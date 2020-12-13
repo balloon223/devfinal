@@ -13,6 +13,7 @@ if(point_distance(x,y,obj_player.x,obj_player.y)<200){foundPlayer=true;}
 if(foundPlayer=true){
 	delay--;
 	if(delay<=0){
+	audio_play_sound(sound_mushroom_shoot,1,0);
 	instance_create_layer(x,y,"Instances",obj_slime_bubble);
 	delay=50;}
 }
