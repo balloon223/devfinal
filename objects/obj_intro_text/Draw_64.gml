@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(local_test==0){
-text="I gotta find that disk";}
+text="I gotta find that CD";}
 else{text="That is the only way ";}
 
 
