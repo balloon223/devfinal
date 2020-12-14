@@ -42,6 +42,7 @@ warpTimer--;
 
 if(keyboard_check(ord("W")))
 	{
+	walktimer--;
 	aniFace=0;
 	if(warpTimer<=0){
 	if(keyboard_check(vk_shift))
@@ -56,7 +57,8 @@ if(keyboard_check(ord("W")))
 
 if(keyboard_check(ord("S")))
 	{
-		aniFace=2;
+	walktimer--;
+	aniFace=2;
 	if(warpTimer<=0){
 	if(keyboard_check(vk_shift))
 	{instance_create_layer(x,y,"Instances",particle);if(place_meeting(x,y+100,lowerwall)){y=y+10; teleport=true; warpTimer=50;}
@@ -71,7 +73,8 @@ if(keyboard_check(ord("S")))
 
 if(keyboard_check(ord("A")))
 	{
-		aniFace=1;
+	walktimer--;
+	aniFace=1;
 	if(warpTimer<=0){
 	if(keyboard_check(vk_shift))
 	{instance_create_layer(x,y,"Instances",particle);if(place_meeting(x-100,y,leftwall)){x=x-10; teleport=true; warpTimer=50;}
@@ -86,7 +89,8 @@ if(keyboard_check(ord("A")))
 
 if(keyboard_check(ord("D")))
 	{
-		aniFace=3;
+	walktimer--;
+	aniFace=3;
 	if(warpTimer<=0){
 	if(keyboard_check(vk_shift))
 	{instance_create_layer(x,y,"Instances",particle);if(place_meeting(x,x+100,rightwall)){x=x+10; teleport=true; warpTimer=50;}
@@ -132,7 +136,14 @@ if(keyboard_check(vk_nokey))
 	if(moveState=2){moveState=-2;}
 	if(moveState=3){moveState=-3;}
 	if(moveState=4){moveState=-4;}
+	walktimer=20;
 	}
+	
+if(walktimer<=0)
+{
+audio_play_sound(sound_walk,1,0);
+walktimer=20;
+}
 
 
 if(keyboard_check(ord("W"))){moveState=1;}

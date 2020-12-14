@@ -200,6 +200,7 @@
     {"id":{"name":"spr_mail_box","path":"sprites/spr_mail_box/spr_mail_box.yy",},"order":28,},
     {"id":{"name":"spr_worm_spawn","path":"sprites/spr_worm_spawn/spr_worm_spawn.yy",},"order":1,},
     {"id":{"name":"obj_bulletHit","path":"objects/obj_bulletHit/obj_bulletHit.yy",},"order":15,},
+    {"id":{"name":"sound_walk","path":"sounds/sound_walk/sound_walk.yy",},"order":23,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"spr_bricksA","path":"sprites/spr_bricksA/spr_bricksA.yy",},"order":0,},
     {"id":{"name":"spr_boss_leg","path":"sprites/spr_boss_leg/spr_boss_leg.yy",},"order":0,},

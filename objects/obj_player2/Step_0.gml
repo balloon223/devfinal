@@ -28,6 +28,7 @@ if(keyboard_check(ord("W")))
 	y=y-vspd;
 	moving=true;
 	moveState=1;
+	walktimer--;
 	}
 
 if(keyboard_check(ord("S")))
@@ -35,6 +36,7 @@ if(keyboard_check(ord("S")))
 	y=y+vspd;
 	moving=true;
 	moveState=2;
+	walktimer--;
 	}
 
 if(keyboard_check(ord("A")))
@@ -42,6 +44,7 @@ if(keyboard_check(ord("A")))
 	x=x-hspd;
 	moving=true;
 	moveState=3;
+	walktimer--;
 	}
 
 if(keyboard_check(ord("D")))
@@ -49,10 +52,19 @@ if(keyboard_check(ord("D")))
 	x=x+hspd;
 	moving=true;
 	moveState=4;
+	walktimer--;
 	}
 	
+if(keyboard_check(vk_nokey))
+	{
+	walktimer=20;
+	}
 
-
+if(walktimer<=0)
+	{
+	audio_play_sound(sound_walk,1,0);
+	walktimer=20;
+	}
 
 
 

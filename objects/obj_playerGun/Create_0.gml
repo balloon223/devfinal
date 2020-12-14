@@ -29,3 +29,4 @@ recoverTimer=5;
 canWarp=false;
 aniFace=0;
 attacking=false;
+walktimer=20;

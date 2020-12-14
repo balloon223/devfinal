@@ -21,3 +21,4 @@ healthbar_height=7;
 isHit=false;
 hasKey=false;
 hasKey2=false;
+walktimer=20;
