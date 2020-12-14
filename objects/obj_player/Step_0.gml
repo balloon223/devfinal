@@ -8,7 +8,7 @@ if(place_meeting(x,y+30,obj_wall))
 	
 if(hp<=0)
 {
-game_restart();
+room_goto(Room_death);
 }
 
 

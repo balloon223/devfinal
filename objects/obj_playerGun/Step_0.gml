@@ -20,7 +20,7 @@ leftwall=instance_place(x-100,y,obj_wall);
 rightwall=instance_place(x+100,y,obj_wall);
 if(hp<=0)
 {
-game_restart();
+room_goto(Room_death);
 }
 
 if(!mouse_check_button(mb_left))
